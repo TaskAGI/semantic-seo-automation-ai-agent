@@ -7,7 +7,7 @@
 
 **The only AI agent that thinks like Google's algorithm.** Automatically generates semantic SEO-optimized blog posts with AI-generated featured images and intelligent internal linking. Built for content teams who want to dominate search rankings while saving 95% of their writing time.
 
-![Semantic SEO Content Agent Workflow](https://taskagi.net/storage/agent-previews/semantic-seo-workflow.png)
+![Semantic SEO Content Agent Workflow](https://taskagi.net/resources/images/agents/semantic-seo-ai-agent.png)
 
 ---
 
@@ -37,7 +37,7 @@ This agent solves all four problems with a single automated workflow that costs 
 
 ### Live Demo
 
-🌐 **[Try it on TaskAGI.net →](https://taskagi.net/agents/semantic-seo-content-ai-agent-deployed)**
+🌐 **[Try it on TaskAGI.net →](https://taskagi.net/agent/semantic-seo-content-ai-agent)**
 
 Deploy this agent with one click and start generating SEO-optimized content immediately. No coding required.
 
