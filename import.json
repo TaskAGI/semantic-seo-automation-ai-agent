@@ -1,0 +1,190 @@
+{
+  "slug": "semantic-seo-content-ai-agent-deployed",
+  "user_id": 1,
+  "name": "Semantic SEO Content AI Agent (Deployed)",
+  "description": "The only AI agent that thinks like Google's algorithm. Automatically generates semantic SEO-optimized blog posts with AI-generated images and intelligent internal linking. Built for content teams who want to dominate search rankings while saving 95% of their writing time.",
+  "hero_tagline": null,
+  "hero_image_url": null,
+  "features_main_title": null,
+  "features_list": [],
+  "how_it_works_steps": [],
+  "demo_section_type": null,
+  "faq_data": [],
+  "testimonials_data": [],
+  "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=32",
+  "category": null,
+  "tags": [],
+  "workflow_definition": {
+    "nodes": [
+      {
+        "id": "1",
+        "name": "Generate Text (Claude)",
+        "type": "anthropic",
+        "integration_instance_id": null,
+        "operation": "createMessage",
+        "config": {
+          "prompt": "You are an expert SEO content writer. Write a focused, high-value article about \"[[nodes.1966.title]]\" that reads naturally while being perfectly optimized for search engines.\n\n## Platform Knowledge Base\n[[nodes.1968.content]]\n\n## WRITING STYLE REQUIREMENTS\n\n### Tone & Voice\n- Write like a knowledgeable human, not a robot\n- Skip generic intros - get straight to the value\n- No corporate fluff like \"in today's digital landscape\" or \"revolutionizing the industry\"\n- Use simple, direct language that real people use\n- Include personality and opinions where appropriate\n- Write the way experts actually talk about the topic\n\n### Opening Strategy\n- Start with a sharp, specific insight or surprising fact\n- Or jump straight into what the thing is and why it matters\n- Or lead with a common problem/question people have\n- NO AI-sounding intros with buzzwords and statistics\n- Make the first sentence something a real expert would actually say\n\n## SEMANTIC SEO REQUIREMENTS\n\n### Entity Mapping\n- Naturally work in 5-7 PRIMARY ENTITIES related to [[nodes.1966.title]]\n- Include 10-15 SECONDARY ENTITIES for topical depth\n- Don't force them - they should flow naturally in context\n- Use variations to avoid repetitive keyword stuffing\n\n### LSI & Semantic Keywords\n- Integrate 20+ related terms naturally\n- Include the questions people actually ask\n- Add buying/comparison terms where they make sense\n- Use real industry terminology, not forced keywords\n\n### Search Intent\n- Figure out what people REALLY want when searching this\n- Give them that answer quickly, then expand\n- Don't make them dig through fluff to find the answer\n\n## CONTENT STRUCTURE\n\n### Word Count & Depth\n- Target length: 1,000-1,500 words (tight and valuable, not bloated)\n- Every paragraph must add real value\n- Cut the filler - if it doesn't help the reader, delete it\n- Go deep on what matters, skip what doesn't\n\n### Heading Hierarchy\n- H1: Clear, includes keyword, tells exactly what this is about\n- H2s: Major sections that people actually care about\n- H3s: Specific subsections and questions\n- Make headings scannable and useful\n- No forced keyword variations in every heading\n\n### Featured Snippet Optimization\n- Include a 40-60 word paragraph directly answering the main query (position after intro)\n- Create definition boxes for key terms\n- Add numbered lists for process-based queries\n- Include comparison tables where relevant\n- Structure content for Position Zero targeting\n\n## ADVANCED SEO ELEMENTS\n\n### Knowledge Graph Optimization\n- Define the main topic clearly in the introduction\n- Establish topic-to-entity relationships\n- Include \"is a,\" \"refers to,\" \"consists of\" statements\n- Create semantic triples (subject-predicate-object)\n- Use structured data-friendly formatting\n\n### Natural Language Processing (NLP) Optimization\n- Write in active voice (80%+ of sentences)\n- Maintain optimal sentence length (15-20 words average)\n- Use transition phrases for content flow\n- Include conversational elements and natural speech patterns\n- Vary sentence structure and paragraph length\n\n### Content Sections to Include\n\n1. **Introduction (50-100 words MAX)**\n   - Get straight to the point\n   - Tell them what they'll learn\n   - Skip the history lesson unless it's actually interesting\n   - Include the featured snippet answer early\n\n2. **Main Content Sections** (3-4 sections based on what matters)\n   - What it is (only if not obvious)\n   - How it works/How to do it\n   - Why it matters/Benefits\n   - Common problems and solutions\n   - Best practices that actually work\n   - Real examples, not made-up case studies\n\n3. **Practical Stuff** (if relevant)\n   - Actual steps people can follow\n   - Tools that really help (not affiliate spam)\n   - Mistakes to avoid (real ones, not filler)\n\n4. **FAQ Section** (3-5 REAL questions)\n   - Questions people actually ask\n   - Short, direct answers\n   - No fake questions for keywords\n\n5. **Wrap-up** (2-3 sentences)\n   - Quick summary or final tip\n   - No \"in conclusion\" academic nonsense\n   - End strong, not with weak CTA begging\n\n## TECHNICAL REQUIREMENTS\n\n### Keyword Density & Placement\n- Primary keyword density: 1-2%\n- Semantic keywords: 3-5% combined\n- Include primary keyword in:\n  - First 100 words\n  - At least 1 H2 heading\n  - Last 100 words\n  - Image alt text suggestions\n  - Meta description suggestion\n\n### Internal Linking Strategy\n- 3-5 internal link opportunities\n- Use descriptive anchor text with semantic variations\n- Link to related pillar/cluster content\n- Create contextual linking opportunities\n- Use html a tags when linking together with an optimized anchor text\n- Here are some relevant posts you should link to: [[nodes.1970.results]]\n\n### Meta Data (Provide at the end)\n- Title Tag: 55-60 characters with keyword front-loaded\n- Meta Description: 150-155 characters with call-to-action\n- URL Slug: Short, keyword-focused suggestion\n- Focus Keyphrase: Primary keyword + 1 modifier\n\n## CONTENT QUALITY FACTORS\n\n### E-E-A-T Signals\n- Show you know what you're talking about through specific details\n- Include real numbers/data when you have them\n- Mention tools/resources people actually use\n- Share insights from actual experience\n- Be specific, not generic\n\n### User Engagement\n- Write naturally engaging content, not formula-driven\n- Use lists and formatting for easy scanning\n- Bold important points naturally\n- Keep paragraphs short and punchy\n- Don't force \"bucket brigades\" - let the content flow\n\n### Voice Search & Conversational Optimization\n- Include natural question-and-answer formats\n- Use conversational tone and colloquialisms\n- Add \"near me\" and location-based modifiers where relevant\n- Include voice search trigger words\n- Write how people speak, not just how they type\n\n## SEMANTIC CLUSTERING NOTES\n\nCreate content that could serve as:\n- A standalone pillar page\n- Part of a topic cluster\n- A hub for related subtopics\n- A comprehensive resource worth bookmarking\n\n## OUTPUT FORMAT\n\nWrite the complete article using **HTML formatting** with:\n- Clear heading structure using HTML tags (`<h1>`, `<h2>`, `<h3>`)\n- Paragraphs wrapped in `<p>` tags\n- Bold text using `<strong>` tags\n- Italic text using `<em>` tags\n- Lists using `<ul>`, `<ol>`, and `<li>` tags\n- Tables using proper `<table>`, `<tr>`, `<th>`, `<td>` structure\n- Short, scannable content blocks\n- Natural flow - SEO should be invisible to readers\n\n**IMPORTANT**: Use HTML tags, NOT Markdown syntax. WordPress needs HTML to display proper formatting and styling.\n\n## CRITICAL REMINDERS\n\n- Write like a human expert, not an AI\n- No corporate buzzword soup\n- Get to the point fast\n- Every sentence must earn its place\n- If you wouldn't say it in real life, don't write it\n- Focus on helping the reader, not impressing them with vocabulary\n\nRemember: Good SEO content ranks because it's genuinely useful, not because it hits a checklist. Write something people actually want to read.\n\nBegin writing the article now.",
+          "model": "claude-sonnet-4-20250514",
+          "temperature": "0.7",
+          "max_tokens": "10000",
+          "system_prompt": null,
+          "integration_instance_id": null
+        },
+        "position_x": 1271,
+        "position_y": 737
+      },
+      {
+        "id": "2",
+        "name": "Content Topic Form",
+        "type": "trigger",
+        "integration_instance_id": null,
+        "operation": "form",
+        "config": {
+          "formTitle": "Semantic SEO Content Generator",
+          "formDescription": "Enter your target keyword or topic to generate a complete SEO-optimized blog post with images and internal linking.",
+          "fields": [
+            {
+              "name": "title",
+              "label": "Target Keyword or Topic",
+              "type": "text",
+              "required": true,
+              "placeholder": "e.g., best project management software, how to start dropshipping"
+            }
+          ],
+          "responseMode": "wait_for_workflow",
+          "responseMessage": "Generating your semantic SEO content... This will take 3-5 minutes.",
+          "redirectUrl": null,
+          "submitButtonText": "Generate SEO Content"
+        },
+        "position_x": 890,
+        "position_y": 488
+      },
+      {
+        "id": "3",
+        "name": "Publish to WordPress",
+        "type": "wordpress",
+        "integration_instance_id": null,
+        "operation": "createPost",
+        "config": {
+          "title": "[[nodes.1966.title]]",
+          "content": "[[nodes.1965.content]]",
+          "status": "draft",
+          "featured_image_url": "[[nodes.1969.image_url]]",
+          "process_content_images": false,
+          "integration_instance_id": null
+        },
+        "position_x": 1644,
+        "position_y": 654
+      },
+      {
+        "id": "4",
+        "name": "Business Knowledge Base",
+        "type": "knowledgebase",
+        "integration_instance_id": null,
+        "operation": "retrieveKnowledge",
+        "config": {
+          "content": "CUSTOMIZE THIS SECTION WITH YOUR BUSINESS INFORMATION:\n\n--- COMPANY OVERVIEW ---\nCompany Name: [Your Company Name]\nIndustry: [Your Industry/Niche]\nMain Products/Services: [What you offer]\nTarget Audience: [Your ideal customers]\nUnique Value Proposition: [What makes you different]\n\n--- BRAND VOICE & STYLE ---\nTone: [Professional, Friendly, Authoritative, Casual, etc.]\nWriting Style: [Conversational, Technical, Educational, etc.]\nForbidden Phrases: [Any terms to avoid]\n\n--- CALL-TO-ACTION GUIDELINES ---\nPrimary CTA: [Your main conversion goal]\nSecondary CTAs: [Alternative actions]\nSpecial Offers: [Any current promotions]\n\nExample CTA Integration: \"When it contextually makes sense, include a natural call-to-action for [your service/product]. Keep CTAs short, actionable, and valuable - not pushy or salesy.\"\n\n--- SEO GUIDELINES ---\nFocus Keywords: [Your main keyword targets]\nContent Pillars: [Your main topic areas]\nCompetitors to Monitor: [Key competitors]\nContent Types: [Blog posts, guides, comparisons, etc.]\n\nInstructions: Replace all bracketed placeholders with your actual business information. The AI will use this context to create on-brand, strategically focused content."
+        },
+        "position_x": 1271,
+        "position_y": 350
+      },
+      {
+        "id": "5",
+        "name": "Generate Featured Image",
+        "type": "googleimagen4fast",
+        "integration_instance_id": null,
+        "operation": "generateImage",
+        "config": {
+          "prompt": "Create a professional, eye-catching featured image for a blog post titled \"[[nodes.1966.title]]\". Analyze the title to determine the most relevant visual elements, concepts, or themes to feature. Generate a clean, modern design that would work well as a blog thumbnail. Use vibrant colors, high contrast, and professional design elements. The image should be engaging, click-worthy, and directly relate to the blog topic. No text overlays or titles - pure visual content only. Make it look like something you'd see on a premium blog or magazine.",
+          "aspect_ratio": "16:9",
+          "output_format": "jpg",
+          "safety_filter_level": "block_only_high"
+        },
+        "position_x": 1644,
+        "position_y": 348
+      },
+      {
+        "id": "6",
+        "name": "Search Web",
+        "type": "googlesearch",
+        "integration_instance_id": null,
+        "operation": "searchWeb",
+        "config": {
+          "query": "site:yourwebsite.com [[nodes.1966.title]]",
+          "num_results": "5",
+          "language": "en",
+          "safe_search": "medium",
+          "integration_instance_id": null,
+          "date_restrict": null
+        },
+        "position_x": 1271,
+        "position_y": 540
+      }
+    ],
+    "connections": [
+      {
+        "source_node_id": "2",
+        "source_output": "submittedAt",
+        "target_node_id": "4",
+        "target_input": null
+      },
+      {
+        "source_node_id": "4",
+        "source_output": "content",
+        "target_node_id": "6",
+        "target_input": null
+      },
+      {
+        "source_node_id": "6",
+        "source_output": "results",
+        "target_node_id": "1",
+        "target_input": null
+      },
+      {
+        "source_node_id": "1",
+        "source_output": "content",
+        "target_node_id": "5",
+        "target_input": null
+      },
+      {
+        "source_node_id": "5",
+        "source_output": "image_data",
+        "target_node_id": "3",
+        "target_input": null
+      }
+    ]
+  },
+  "required_integrations": [
+    "anthropic",
+    "wordpress",
+    "googleimagen4fast",
+    "googlesearch"
+  ],
+  "is_premium": false,
+  "usage_count": 0,
+  "draft": true,
+  "version": "1.0.0",
+  "setup_guide": null,
+  "_export_metadata": {
+    "exported_at": "2025-10-16T13:12:30.013801Z",
+    "exported_by": "cem",
+    "source_agent_id": 905,
+    "source_agent_name": "Semantic SEO Content AI Agent (Deployed)",
+    "node_id_mapping": {
+      "1965": "1",
+      "1966": "2",
+      "1967": "3",
+      "1968": "4",
+      "1969": "5",
+      "1970": "6"
+    },
+    "total_nodes": 6,
+    "total_connections": 5,
+    "integration_types": [
+      "anthropic",
+      "wordpress",
+      "googleimagen4fast",
+      "googlesearch"
+    ]
+  }
+}
